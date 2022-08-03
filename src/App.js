@@ -1,5 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import AddProducts from './Pages/DashBoard/AddProducts';
+import DashBoard from './Pages/DashBoard/DashBoard';
+import EditProducts from './Pages/DashBoard/EditProducts';
+import MyProducts from './Pages/DashBoard/MyProducts';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Login/Register';
@@ -11,8 +15,15 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<Register></Register>}></Route>
+        <Route path='/dashboard' element={<DashBoard></DashBoard>}>
+          <Route index element={<MyProducts></MyProducts>}></Route>
+          <Route path='/dashboard/editproducts' element={<EditProducts></EditProducts>}></Route>
+          <Route path='/dashboard/addproducts' element={<AddProducts></AddProducts>}></Route>
+
+        </Route>
 
       </Routes>
     </div>
