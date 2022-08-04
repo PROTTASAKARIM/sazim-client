@@ -48,7 +48,7 @@ const MyproductDetails = ({ product }) => {
                         <p className='text-left'>Price:{p_price}</p>
                         <p className='text-left'>Rent:{p_rent} {p_rentoption}</p>
                         <div class="card-actions justify-end">
-                            <button onClick={() => navigateToDetails(p_id)} class="btn btn-primary">Details</button>
+                            <button onClick={() => navigateToDetails(p_id)} class="btn btn-primary">Edit</button>
                             <button onClick={() => performeToDelete(p_id)} class="btn btn-primary">Delete</button>
                             {/* <label onClick={() => { handleConfirmDelete() }} for="deleteConfirm" class="btn modal-button btn-danger">Delete</label> */}
                             {/* {
