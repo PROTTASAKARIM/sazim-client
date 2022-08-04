@@ -1,10 +1,11 @@
 # Getting Started with Create React App
 Part 1: 
-* i have implemented the both login an registration with the help of 
+* I have implemented the both login an registration with the help of 
 firebase.
+
 Part 2:
 * I have done CRUD operations in products.
-* I had not implemented selecting multiple catagories
+* I had not implemented selecting multiple categories
 
 Part 3
 * All the products created by all user is done
