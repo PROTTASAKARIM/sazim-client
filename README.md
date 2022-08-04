@@ -1,4 +1,19 @@
 # Getting Started with Create React App
+Part 1: 
+* i have implemented the both login an registration with the help of 
+firebase.
+Part 2:
+* I have done CRUD operations in products.
+* I had not implemented selecting multiple catagories
+
+Part 3
+* All the products created by all user is done
+* user can buy and rent a product
+* Working on displaying all bought and rented products
+
+Front end is done with react and for design i have used Daisy UI and For backend I have used node.js and express
+For database i have worked with postgres 
+I have not implemented GraphQl and apollo cache.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
